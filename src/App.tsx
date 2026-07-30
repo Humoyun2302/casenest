@@ -26,12 +26,12 @@ const links = [
     ariaLabel: 'Open CASENEST Telegram @casenestuz',
   },
   {
-    href: 'https://instagram.com/casenest_uz',
+    href: 'https://t.me/casenest_uz',
     label: 'DIRECT',
     subtitle: '@casenest_uz',
     icon: <DirectIcon />,
     external: true,
-    ariaLabel: 'Open CASENEST Instagram Direct @casenest_uz',
+    ariaLabel: 'Open CASENEST Telegram Direct @casenest_uz',
   },
   {
     href: 'tel:+998985551505',
