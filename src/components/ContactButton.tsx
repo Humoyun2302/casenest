@@ -29,6 +29,7 @@ export function ContactButton({
     >
       <span className="contact-btn__icon" aria-hidden="true">
         {icon}
+        <span className="contact-btn__icon-glint" />
       </span>
       <span className="contact-btn__text">
         <span className="contact-btn__label">{label}</span>
@@ -36,6 +37,7 @@ export function ContactButton({
       </span>
       <ChevronRight className="contact-btn__arrow" aria-hidden="true" strokeWidth={1.6} />
       <span className="contact-btn__sheen" aria-hidden="true" />
+      <span className="contact-btn__border-shine" aria-hidden="true" />
     </a>
   );
 }

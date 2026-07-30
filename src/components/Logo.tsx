@@ -11,6 +11,7 @@ export function Logo() {
         height={220}
         decoding="async"
       />
+      <span className="logo__shine" aria-hidden="true" />
     </div>
   );
 }

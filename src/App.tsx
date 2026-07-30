@@ -48,7 +48,9 @@ export default function App() {
     <main className="page">
       <div className="page__glow" aria-hidden="true" />
       <div className="glass-panel">
+        <div className="glass-panel__border" aria-hidden="true" />
         <div className="glass-panel__reflection" aria-hidden="true" />
+        <div className="glass-panel__flare" aria-hidden="true" />
 
         <header className="header">
           <h1 className="sr-only">CASENEST — Premium Phone Accessories</h1>
