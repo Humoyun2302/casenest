@@ -51,13 +51,8 @@ export default function App() {
         <div className="glass-panel__reflection" aria-hidden="true" />
 
         <header className="header">
+          <h1 className="sr-only">CASENEST — Premium Phone Accessories</h1>
           <Logo />
-          <h1 className="header__title">CASENEST</h1>
-          <p className="header__subtitle">
-            <span className="header__line" aria-hidden="true" />
-            <span>PREMIUM PHONE ACCESSORIES</span>
-            <span className="header__line" aria-hidden="true" />
-          </p>
         </header>
 
         <nav className="links" aria-label="Contact links">

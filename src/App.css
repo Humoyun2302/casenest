@@ -69,21 +69,34 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  gap: 0.7rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .logo {
-  width: 110px;
-  height: 110px;
+  width: min(72vw, 210px);
+  height: auto;
   display: grid;
   place-items: center;
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.45));
   animation: logoIn 0.75s ease-out both;
 }
 
-.logo__svg {
+.logo__img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
 }
 
 @keyframes logoIn {
@@ -95,46 +108,6 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.header__title {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 500;
-  letter-spacing: 0.32em;
-  text-indent: 0.32em;
-  line-height: 1.15;
-  color: #f2f2f2;
-  animation: fadeUp 0.7s ease-out 0.08s both;
-}
-
-.header__subtitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-  width: 100%;
-  max-width: 22rem;
-  margin: 0;
-  font-size: 11.5px;
-  font-weight: 400;
-  letter-spacing: 0.16em;
-  color: #a3a3a3;
-  text-transform: uppercase;
-  animation: fadeUp 0.7s ease-out 0.16s both;
-}
-
-.header__line {
-  flex: 1 1 2.4rem;
-  height: 1px;
-  max-width: 2.6rem;
-  min-width: 1.4rem;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(200, 200, 200, 0.55),
-    transparent
-  );
 }
 
 @keyframes fadeUp {
@@ -329,14 +302,7 @@
   }
 
   .logo {
-    width: 105px;
-    height: 105px;
-  }
-
-  .header__title {
-    font-size: 26px;
-    letter-spacing: 0.28em;
-    text-indent: 0.28em;
+    width: min(68vw, 185px);
   }
 
   .contact-btn {
@@ -365,23 +331,12 @@
     padding-top: 30px;
   }
 
-  .header__title {
-    font-size: 29px;
-    letter-spacing: 0.34em;
-    text-indent: 0.34em;
-  }
-
-  .header__subtitle {
-    font-size: 12px;
-  }
-
   .contact-btn {
     min-height: 100px;
   }
 
   .logo {
-    width: 112px;
-    height: 112px;
+    width: min(70vw, 215px);
   }
 }
 
@@ -392,6 +347,10 @@
 
   .contact-btn {
     min-height: 102px;
+  }
+
+  .logo {
+    width: 220px;
   }
 }
 
@@ -409,18 +368,7 @@
   }
 
   .logo {
-    width: 118px;
-    height: 118px;
-  }
-
-  .header__title {
-    font-size: 30px;
-    letter-spacing: 0.36em;
-    text-indent: 0.36em;
-  }
-
-  .header__subtitle {
-    font-size: 12px;
+    width: 230px;
   }
 
   .contact-btn {
@@ -443,8 +391,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .logo,
-  .header__title,
-  .header__subtitle,
   .contact-btn {
     animation: none !important;
   }
