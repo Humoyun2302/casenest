@@ -20,5 +20,5 @@ npm run preview
 
 - Instagram: [@casenestuz](https://instagram.com/casenestuz)
 - Telegram: [@casenestuz](https://t.me/casenestuz)
-- Direct: [@casenest_uz](https://instagram.com/casenest_uz)
+- Direct: [@casenest_uz](https://t.me/casenest_uz)
 - Call: +998 98 555 15 05
