@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000000;
+  --bg-deep: #050505;
+  --silver: #d4d4d4;
+  --silver-bright: #f0f0f0;
+  --silver-dim: #9a9a9a;
+  --silver-muted: #6e6e6e;
+  --glass: rgba(18, 18, 18, 0.72);
+  --glass-border: rgba(210, 210, 210, 0.45);
+  --font: 'Montserrat', 'Segoe UI', sans-serif;
+  color-scheme: dark;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--silver);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
