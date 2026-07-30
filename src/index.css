@@ -8,13 +8,10 @@
 
 :root {
   --bg: #000000;
-  --bg-deep: #050505;
-  --silver: #d4d4d4;
-  --silver-bright: #f0f0f0;
-  --silver-dim: #9a9a9a;
-  --silver-muted: #6e6e6e;
-  --glass: rgba(18, 18, 18, 0.72);
-  --glass-border: rgba(210, 210, 210, 0.45);
+  --silver: #e8e8e8;
+  --silver-bright: #f5f5f5;
+  --silver-soft: #b8b8b8;
+  --silver-muted: #8f8f8f;
   --font: 'Montserrat', 'Segoe UI', sans-serif;
   color-scheme: dark;
 }
